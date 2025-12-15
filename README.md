@@ -1,3 +1,4 @@
 README AT26
 
-started 14 dec 2025
+- access via 192.168.133:8787
+- started 14 dec 2025
