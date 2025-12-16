@@ -1,0 +1,8 @@
+{
+  "name": "at26 quarto-blog",
+  "version": "1.0.0",
+  "description": "Static Quarto blog deployed on Cloudflare Pages",
+  "scripts": {
+    "build": "echo 'No build step required'"
+  }
+}
