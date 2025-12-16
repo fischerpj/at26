@@ -1,5 +1,5 @@
 {
-  "name": "at26 quarto-blog",
+  "name": "at26",
   "version": "1.0.0",
   "description": "Static Quarto blog deployed on Cloudflare Pages",
   "scripts": {
