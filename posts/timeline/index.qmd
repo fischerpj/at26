@@ -3,4 +3,100 @@ title: "timeline"
 author: "granpiero"
 date: "2025-12-15"
 categories: [news]
+editor: 
+  markdown: 
+    wrap: sentence
 ---
+
+```{r TRIBL, echo=FALSE}
+tibble::tribble(
+  ~name,
+  "granpiero"
+) |>
+  gt::gt()
+```
+
+Voici une vue d’ensemble des étapes clés à suivre pour transférer votre résidence fiscale de la France vers l’Autriche. 
+Cette procédure combine les exigences légales françaises et autrichiennes ainsi que les bonnes pratiques pour éviter les problèmes de double imposition ou de perte de droits sociaux.
+
+#### Vérifier le critère de « résidence fiscale »
+
+En droit fiscal, vous êtes considéré résident d’un pays lorsqu’au moins un des trois critères suivants est rempli :
+
+\| Critère \| France \| Autriche \| \| —- \| —- \| \| Domicile (lieu où vous avez votre « foyer permanent ») \| Centre des intérêts vitaux en France \| Centre des intérêts vitaux en Autriche \| \|Séjour (plus de 183 jours par an) \| \> 183 jours sur le territoire français \| \> 183 jours sur le territoire autrichien \|
+
+-   Activité professionnelle principale Emploi ou activité principale exercée en France Emploi ou activité principale exercée en Autriche Vous devez donc vous assurer que le critère du centre des intérêts vitaux bascule clairement vers l’Autriche.
+
+#### Préparer le départ de France Action Détails
+
+-   Informer l’administration fiscale française Déclarez votre changement de domicile via le formulaire « déclaration de sortie du territoire » (disponible sur impots.gouv.fr).
+    Vous recevrez un certificat de résidence fiscale qui pourra être demandé par les autorités autrichiennes.
+
+-   Clôturer ou transférer vos comptes bancaires Conservez au moins un compte français pendant la période de transition pour faciliter le paiement des impôts dus.
+
+-   Résilier ou transférer les contrats (assurance habitation, électricité, internet, abonnement téléphonique, etc.) Conservez les factures de résiliation comme preuve de la date de fin de résidence.
+
+-   Déclarer la vente ou le transfert de biens immobiliers Si vous vendez un bien en France, la plus‑value éventuelle doit être déclarée dans votre dernière déclaration d’impôt sur le revenu.
+
+-   Mettre à jour votre adresse auprès de la Sécurité Sociale Informez la CPAM de votre départ afin de clôturer votre affiliation ou de préparer le transfert vers le système autrichien (si vous avez droit à la portabilité).
+
+-   Faire un point sur les prélèvements sociaux (CSG/CRDS, retraite) Vérifiez les conventions bilatérales de sécurité sociale entre la France et l’Autriche (accord UE) pour éviter les doubles cotisations.
+
+#### S’établir en Autriche Étape Démarches concrètes
+
+-   Obtenir un permis de séjour / Anmeldung Dès votre arrivée, inscrivez‑vous auprès du Meldeamt (bureau d’enregistrement) de votre commune (habituellement dans les 3 jours).Vous recevrez un Meldezettel (certificat d’enregistrement).
+
+-   Ouvrir un compte bancaire autrichien Nécessaire pour le paiement des impôts, des assurances sociales et pour recevoir votre salaire.
+
+-   Souscrire à une assurance santé autrichienne En tant que résident, vous devez vous affilier à la Gesundheitskasse (assurance maladie obligatoire).
+
+-   Demander le numéro d’identification fiscale autrichien (Steuernummer) À faire auprès du Finanzamt (bureau des impôts) après votre inscription.
+    Déclarer votre situation fiscale Remplissez le formulaire « Anmeldung zur Einkommensteuer » (déclaration d’inscription à l’impôt sur le revenu) dès votre première année d’imposition.
+
+-   Vérifier la convention de double imposition (France‑Autriche) La convention signée le 28 mai 2006 évite la double imposition.
+    Elle précise quels revenus sont imposables où (ex. : revenus fonciers, dividendes, pensions).
+    Vous devrez éventuellement fournir le certificat de résidence française à l’administration autrichienne.
+
+-   Transférer les droits à la retraite Grâce aux accords européens, vos trimestres cotisés en France peuvent être pris en compte pour la pension autrichienne.
+    Contactez les caisses concernées (CNAV, PVA).
+
+#### Gestion des impôts pendant la transition (année d’arrivée)
+
+Déclaration de revenus en France
+
+Vous restez imposable en France sur les revenus de source française (ex. : loyers perçus en France, plus‑values immobilières).
+Déclarez vos revenus mondiaux jusqu’à la date de sortie effective (date d’inscription à l’Anmeldung).
+Déclaration de revenus en Autriche
+
+L’année d’arrivée, vous déclarez les revenus perçus à partir de la date de résidence fiscale autrichienne.
+Les revenus déjà imposés en France peuvent bénéficier d’un crédit d’impôt selon la convention.
+Éventuel remboursement ou paiement supplémentaire
+
+Selon le calcul de la double imposition, vous pourriez devoir payer un solde ou recevoir un remboursement.
+Conservez toutes les attestations (certificat de résidence, relevés de paie, avis d’imposition) pour justifier les montants.
+5.
+Points de vigilance et conseils pratiques Risque Comment le limiter Double imposition accidentelle Conservez le certificat de résidence fiscale français et fournissez‑le à l’administration autrichienne.
+Utilisez le formulaire de crédit d’impôt prévu par la convention.
+Perte de droits sociaux Vérifiez la portabilité des droits à la retraite et à la sécurité sociale via le portail européen e‑Benefits ou les caisses concernées.
+Retard d’inscription au Meldestand Inscrivez‑vous rapidement (dans les 3 jours) pour éviter des amendes et garantir l’accès aux services publics (énergie, santé).
+Fiscalité des biens immobiliers en France Même après votre départ, vous devez déclarer les revenus locatifs et les plus‑values éventuelles.
+Pensez à désigner un mandataire fiscal si vous ne pouvez pas gérer cela vous‑même.
+Changement de statut marital ou familial Si votre conjoint·e ou vos enfants vous accompagnent, ils doivent également s’inscrire et obtenir leurs numéros fiscaux.
+Cela influence les tranches d’imposition et les déductions familiales en Autriche.
+6.
+Ressources utiles \| Institution \| Lien (français/anglais) \| \|---a---\|---\| \| Service public français – changement de résidence fiscale \| https://www.impots.gouv.fr/portail/ \| \| Consulat d’Autriche en France (infos pratiques) \| https://www.bmeia.gv.at/en/embassy/paris/ \| \| Finanzamt Autriche – guide pour les nouveaux résidents \| https://www.bmf.gv.at/ \| \| Convention de double imposition FR‑AT (texte officiel) \| https://www.impots.gouv.fr/files/media/1_convention_fra_aut.pdf \| \| Portail européen e‑Benefits (transfert de droits sociaux) \| https://ec.europa.eu/eusocialsecurity/home.jsp \|
+
+Résumé rapide (check‑list) Déclarer votre sortie auprès des impôts français et obtenir le certificat de résidence.
+Résilier/mettre à jour vos contrats (logement, énergie, banque, assurances).
+Vous inscrire à l’Anmeldung (Meldeamt) en Autriche dans les 3 jours.
+Ouvrir un compte bancaire autrichien et souscrire à l’assurance santé locale.
+Obtenir votre Steuernummer et déclarer vos revenus mondiaux à l’Autriche (en précisant la date de résidence).
+Appliquer la convention FR‑AT pour éviter la double imposition (fournir le certificat français).
+Vérifier la portabilité des droits sociaux (retraite, sécurité sociale).
+À noter : chaque situation personnelle (type de revenu, statut marital, biens possédés…) peut introduire des spécificités.
+Si vous avez des doutes sur un point particulier (par ex. : fiscalité d’une plus‑value immobilière ou d’un investissement financier), il est prudent de consulter un expert‑comptable franco‑autrichien ou un avocat fiscaliste familiarisé avec la convention de double imposition.
+
+N’hésitez pas à me dire si vous avez besoin d’éclaircissements sur une étape précise ou d’aide pour préparer les documents requis.
+Bonne installation en Autriche !
+
+Sent from Proton Mail for Android.
