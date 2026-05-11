@@ -1,0 +1,16 @@
+---
+title: "Contacts"
+author: "granpiero"
+date: "2026-02-03"
+description: "ENSAP procedures"
+categories: [news]
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+> Carnet d'adresses
+
+[**FinanzAmt** Siriusstraße 11 Telefonnummer - Privatpersonen: 050 233 233](https://www.finanz.at/finanzamt/klagenfurt/)
+
+[Steuerberater](https://www.finanz.at/unternehmen/steuerberater/)

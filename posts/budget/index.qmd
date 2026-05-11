@@ -1,0 +1,16 @@
+---
+title: "Budget"
+author: "granpiero"
+date: "2026-02-03"
+description: "ENSAP procedures"
+categories: [news]
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+> Budget
+
+1.  Loyer Klagenfurt
+2.  Tph AT +43 DE +49 0.3€/min ou 4€/mois
+3.  CDiscount: fishrp\@pm.me Passe0Partout1%%%

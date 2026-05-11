@@ -1,0 +1,13 @@
+---
+title: "Intro"
+author: "granpiero"
+date: "2025-12-03"
+categories: [news]
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+> Présentation du projet AT26
+
+_5 Que votre douceur soit connue de tous les hommes. Le Seigneur est proche. 6 Ne vous inquiétez de rien, mais en toute chose faites connaître vos besoins à Dieu par des prières et des supplications, dans une attitude de reconnaissance. 7 Et la paix de Dieu, qui dépasse tout ce que l’on peut comprendre, gardera votre cœur et vos pensées en Jésus-Christ. Phil4_

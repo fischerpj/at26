@@ -1,0 +1,13 @@
+---
+title: "SIRP"
+author: "granpiero"
+date: "2026-02-03"
+categories: [news]
+description: "SIRP ^procedures"
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+> "SIRP ^procedures"
+

@@ -2,9 +2,23 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/timeline/index.html",
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/JSON_pretty/index.html",
+      "/posts/help/index.html",
+      "/posts/steuer/index.html",
+      "/posts/ENSAP/index.html",
+      "/posts/timeline/index2.html",
+      "/posts/contacts/index.html",
+      "/posts/location_6mois/index.html",
+      "/posts/buy_strategy/index.html",
+      "/posts/SIRP/index.html",
+      "/posts/steuer_international/index.html",
+      "/posts/hebergement/index.html",
+      "/posts/DGFIP/index.html",
+      "/posts/AT_Anmeldungen/index.html",
+      "/posts/test_table.md/index.html",
+      "/posts/budget/index.html",
+      "/posts/checklists/index.html",
+      "/posts/intro/index.html"
     ]
   }
 ]

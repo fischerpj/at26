@@ -1,0 +1,12 @@
+---
+title: "DGFIP"
+author: "granpiero"
+date: "2026-02-03"
+description: "Impots.gouv.fr procedures"
+categories: [news]
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+> Impots.gouv.fr procedures

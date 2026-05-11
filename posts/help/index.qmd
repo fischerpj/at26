@@ -1,0 +1,18 @@
+---
+title: "How To Help"
+author: "granpiero"
+date: "2026-02-03"
+description: "ENSAP procedures"
+categories: [news]
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+> HowTo
+
+1. how to copy file into nucRS/at26 ?
+
+- on Windows PWS cd C:\Users\xpif3\Downloads\AT26
+
+OK scp  Meldezettel_2023.pdf pepo@192.168.8.122:/home/pepo/Downloads/

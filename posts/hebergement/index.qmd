@@ -1,0 +1,214 @@
+---
+title: "Hebergement Court"
+author: "granpiero"
+date: "2026-02-03"
+description: "planning network"
+categories: [news]
+execute: 
+  echo: false
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+> Recherche Hébergement
+
+https://www.airbnb.at/rooms/22235577?c
+heck_in=2026-05-04&check_out=2026-05-12&guests=1&adults=2&s=67&unique_share_id=ea4a0a01-ff59-493b-bab2-6f32a6f04bbc
+
+> 1.  [cozycozy](https://www.cozycozy.com/at/ferienwohnungen-villach) ab 50€/night. is an AGGREGATOR. Villach **Ferienwohnungen** und Airbnb
+> 2.  [monteurzimmer.at/](https://www.monteurzimmer.at/) sehr gut
+> 3.  [KURZZEiTmiete](https://www.kurzzeitmiete.at/de) for a month minimum
+> 4.  [niceflats](https://www.niceflats.net/) 80 €/night Fully serviced & all inclusive apartments for companies, trainees and professionals
+> 5.  [flatio.at/](https://www.flatio.at/){.uri} KO International Vermietungen für digitale Nomaden KO
+> 6.  [HousingAnywhere](https://housinganywhere.com/) Mid to Long-Term Rentals in 400+ cities 1xVillach
+> 7.  [rentberry.com](https://rentberry.com/at/apartments/s/villach-austria)
+> 8.  flatbee
+> 9.  [willhaben villach](https://www.willhaben.at/iad/immobilien/mietwohnungen/mietwohnung-angebote?sfId=704abea6-7b86-43dd-a71d-4e6efb9d26f8&isNavigation=true&areaId=202&rows=30&ESTATE_PREFERENCE=27&ESTATE_PREFERENCE=15&ESTATE_PREFERENCE=28&NO_OF_ROOMS_BUCKET=1X1&page=1&ESTATE_SIZE/LIVING_AREA_FROM=25) de tout et immobilier MietWohnungen **au long cours**
+> 10. <https://rentberry> monatlich mieten
+
+```{r}
+data <-tibble::tribble(
+  ~colA, ~colB,
+  "immokralle",   1,
+  "immoscout",   2,
+  "immowelt",   3,
+  "flatbee",   3,
+  "keinmakler",   3,
+  "Airbnb",   3,
+  "Booking.com",   3,
+  "Flatio",   3,
+  "HousingAnywhere",   3,
+  "Willhaben.at ",   3,
+  "WG‑Gesucht.at",   3,
+  "Urlaub am Bauernhof",   3,
+  "Pensionen & Gästehäuser",   3,
+  "Monteurzimmer",   3,
+  "niceflats",   3,
+  "Pensionen & Gästehäuser",   3,
+  "KURZZEiTmiete",   3,
+  "cozycozy",   3,
+  "vacationRenter",   3,
+   
+)
+
+data |> gt::gt()
+```
+
+The most effective strategy in Austria is to combine medium‑term rental platforms, local classifieds, and non‑hotel lodging networks, while checking city‑specific rules—especially in Vienna, where short‑term rentals face strict limits.
+
+------------------------------------------------------------------------
+
+🧭 1.
+Start with platforms that specialize in non‑hotel short stays These are the most reliable for stays from a few weeks to a few months.
+
+-   **Airbnb** (but with restrictions in Vienna) — Vienna limits whole‑unit rentals to 90 days/year without a permit, and commercial short‑term letting in residential zones is prohibited. This means supply is lower but still exists in permitted zones.\
+-   **Booking.com** apartments — Many private apartments list here for short stays; less impacted by Vienna’s zoning rules if they operate legally.\
+-   **Flatio** — Focuses on medium‑term furnished rentals (1–6 months). Often used by digital nomads and avoids the strictest STR regulations.\
+-   **HousingAnywhere** — Good for furnished sublets, especially in university cities.
+
+Why this works: These platforms filter for legal, furnished, short‑term units and reduce the risk of illegal STRs, which Vienna actively investigates.
+
+------------------------------------------------------------------------
+
+🧭 2.
+Use Austrian local marketplaces for private sublets These are excellent for non‑touristic, cheaper options.
+
+-   **Willhaben.at** — Austria’s largest classifieds site; search for Zwischenmiete, Untermiete, befristet.\
+-   **WG‑Gesucht.at** — Not only for rooms; many full flats appear as temporary sublets.\
+-   Facebook Marketplace / expat groups — Useful but requires more due diligence.
+
+Why this works: Many Austrians prefer subletting privately rather than listing on STR platforms due to regulatory complexity.
+
+------------------------------------------------------------------------
+
+🧭 3.
+Consider non‑hotel lodging networks These are ideal if you want something more “home‑like” without entering the regulated STR market.
+
+-   Farm stays (**Urlaub am Bauernhof**) — Rural, authentic, often available for short stays.\
+-   **Pensionen & Gästehäuser** — Family‑run guesthouses that are not hotels but operate legally.\
+-   **Monteurzimmer** / worker rooms — Simple, furnished rooms for short‑term workers; widely available outside Vienna.
+
+------------------------------------------------------------------------
+
+🧭 4.
+Understand the regulatory landscape (critical in Austria) Austria—especially Vienna—has tightened STR rules:
+
+-   Vienna:
+    -   Whole‑unit STRs limited to 90 days/year unless you obtain an exemption permit requiring co‑owner consent and building‑wide limits.\
+    -   Commercial STRs in residential zones are prohibited.\
+    -   Illegal listings can lead to fines up to €50,000.
+-   Other regions (Salzburg, Tyrol, Styria):\
+    Regulations exist but are generally less restrictive than Vienna.
+
+Implication for your search:\
+If you’re looking in Vienna, prioritize medium‑term platforms (Flatio, HousingAnywhere) and legal guesthouses.
+In other regions, Airbnb and private sublets are more abundant.
+
+------------------------------------------------------------------------
+
+🧭 5.
+A practical search workflow (optimized for Austria) 1.
+Define your duration:\
+- \<30 days → guesthouses, pensions, legal STRs\
+- 1–6 months → Flatio, HousingAnywhere, Willhaben\
+2.
+Check zoning if in Vienna (STR restrictions are strict).\
+3.
+Cross‑check the address on Vienna’s zoning map (if applicable).\
+4.
+Ask for Meldezettel possibility if you need registration (not always possible in STRs).\
+5.
+Verify legality: ask whether the landlord has the required permit (Vienna only).
+
+------------------------------------------------------------------------
+
+🧭 6.
+Quick comparison table
+
+| Option | Best for | Pros | Cons |
+|----|----|----|----|
+| **Flatio / HousingAnywhere** | 1–6 months | Legal, furnished, predictable | Slightly higher prices |
+| **Willhaben / WG‑Gesucht** | Cheap sublets | Local, flexible | Requires vetting |
+| **Airbnb (outside Vienna)** | 1–4 weeks | Easy, furnished | Higher cost |
+| Pension / Gästehaus | \<1 month | Legal, home‑like | Less kitchen access |
+| **Monteurzimmer** | Budget stays | Very cheap | Basic comfort |
+
+------------------------------------------------------------------------
+
+If you tell me where in Austria and how long you need the accommodation, I can map the exact platforms and strategies that fit your case.
+
+The strongest strategy in Carinthia (Villach + Klagenfurt) is to combine local furnished-apartment providers with Austrian medium‑term rental platforms and regional sublet channels, because this region has abundant legal non‑hotel options and far fewer restrictions than Vienna.
+
+------------------------------------------------------------------------
+
+🧭 OK What works best for 2 weeks → 6 months in Villach & Klagenfurt
+
+1.  Dedicated furnished-apartment providers (high reliability, flexible durations) These are purpose‑built for temporary stays and are often used by companies, contractors, and relocators.
+
+-   **NiceFlats Villach** — Fully furnished apartments with all‑inclusive pricing, kitchens, and flexible terms; designed for short‑term business stays.
+    They explicitly position themselves as a step beyond Airbnb and offer professional invoicing and turnkey service.\
+    Best for: 2 weeks → several months, predictable costs, corporate‑style reliability.
+
+-   Kurzzeitmiete **(KURZZEiTmiete**) — A major Austrian platform for Wohnen auf Zeit (temporary living).
+    Their Klagenfurt listings include studios and multi‑room apartments, all furnished, with transparent pricing for the entire stay.\
+    Best for: 1–6 months, furnished units with clear contracts.
+
+These two sources alone cover a large share of legal, stable, non‑hotel options in Carinthia.
+
+------------------------------------------------------------------------
+
+2.  Short‑term apartments via curated platforms These are more “holiday‑apartment” oriented but still suitable for multi‑week stays.
+3.  FeWOdireckt
+
+-   **cozycozy** (Villach) — Aggregates short‑term apartments, including aparthotels and furnished flats with kitchens.
+    Listings include multi‑week availability and amenities like washing machines and parking.\
+    Best for: 2–8 weeks, flexible dates, easy booking.
+
+-   **Rentberry** (Villach region) — Offers furnished apartments and holiday flats around Villach and nearby lakes, often with full kitchens and long‑stay suitability.\
+    Best for: 2–12 weeks, scenic or suburban locations.
+
+------------------------------------------------------------------------
+
+3.  Local sublets (cheapest, but more manual work) Carinthia has an active private sublet market, especially around universities and seasonal work.
+
+Use: - Willhaben.at (search: Zwischenmiete, befristet, Untermiete)\
+- WG‑Gesucht.at (rooms + full flats)\
+- Facebook groups (Villach, Klagenfurt, Carinthia expats)
+
+Best for: 1–6 months, lower cost, more negotiation flexibility.
+
+------------------------------------------------------------------------
+
+🧭 Recommended workflow (optimized for Carinthia)
+
+1.  Start with NiceFlats (Villach) + Kurzzeitmiete (Klagenfurt)\
+    These give you the most stable, legal, furnished options for 2 weeks → 6 months.
+
+2.  Check cozycozy + Rentberry\
+    Good for scenic or suburban apartments, often with immediate availability.
+
+3.  Use Willhaben for budget sublets\
+    Especially effective for 1–3 month stays.
+
+4.  Ask explicitly about:
+
+    -   Meldezettel (if you need registration) — many medium‑term rentals allow it.\
+    -   All‑inclusive pricing (heating, electricity, internet).\
+    -   Deposit rules (Carinthia is generally moderate compared to Vienna).
+
+------------------------------------------------------------------------
+
+🧭 Quick comparison table
+
+| Option | Duration Fit | Pros | Cons |
+|----|----|----|----|
+| NiceFlats Villach | 2 w – 6 m | All‑inclusive, furnished, professional | Higher price |
+| Kurzzeitmiete Klagenfurt | 1 – 6 m | Legal, curated, furnished | Limited supply |
+| cozycozy | 2 w – 2 m | Easy booking, many apartments | Tourist‑season price spikes |
+| Rentberry | 2 w – 3 m | Scenic locations, furnished | Mixed quality |
+| Willhaben / WG‑Gesucht | 1 – 6 m | Cheapest, local | More vetting needed |
+
+------------------------------------------------------------------------
+
+If you want, I can map the best options for your exact dates, or filter by budget, need for Meldezettel, kitchen, or proximity to Villach/Klagenfurt transport hubs.

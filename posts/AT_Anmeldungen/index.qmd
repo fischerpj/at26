@@ -1,0 +1,66 @@
+---
+title: "AT_Anmeldungen"
+author: "granpiero"
+date: "2026-02-03"
+description: "ENSAP procedures"
+categories: [news]
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+> Anmeldungen in AT: MeldeZettel, SteuerNummer, SteuerAnmeldung
+>
+> -   housing contract
+>
+> -   **Meldezettel.pdf** \< 3 jours + Passeport =\> Kumpfgasse 20 9010 Klagenfurt
+>
+> -   **Erstanmeldung** Steuer =\> nur vor Ort
+
+0.  Prerequisite: Housing Contract
+
+1.  **Meldezettel**
+
+-   Obtenir un permis de séjour / **Anmeldung** Dès votre arrivée, inscrivez‑vous auprès du Meldeamt (bureau d’enregistrement) de votre commune (habituellement dans les 3 jours).Vous recevrez un Meldezettel (certificat d’enregistrement).
+
+-   **Meldepflicht** *Jeder Bürger, jede Bürgerin ist verpflichtet, sich bei einer Wohnsitzänderung **innerhalb von drei Tagen** an der neuen Adresse anzumelden.*
+
+    *Die Anmeldung muss grundsätzlich bei der **für die Unterkunft zuständigen** Meldebehörde erfolgen. Wird ein Hauptwohnsitz angemeldet, so ist gleichzeitig die Abmeldung des bisherigen Hauptwohnsitzes vorzunehmen. Die Abmeldung von Nebenwohnsitzen ist überall dort möglich, wo eine Wohnsitzanknüpfung (Hauptwohnsitz oder Nebenwohnsitz) vorhanden ist.*
+
+-   Abteilung Bevölkerungswesen Wahl- und Meldeamt
+
+    Kumpfgasse 20 9010 Klagenfurt am Wörthersee
+
+    [+43 463 537-4030](tel:+43%20463%20537-4030) [meldeamt\@klagenfurt.at](mailto:meldeamt@klagenfurt.at)
+
+-   Bei Neu-Anmeldungen: 
+
+    -   Vollständig **ausgefüllter Meldezettel**\
+        Hinweis: bei Haupt- oder Untermieten wird die Unterschrift der Unterkunftgeberin / des Unterkunftgebers unbedingt benötigt.
+        Dies gilt auch für die Änderung der von Haupt- auf Nebenwohnsitz oder umgekehrt
+
+    -   Öffentliche Urkunden aus denen Familien- und Vorname, Geburtsdatum, Geburtsort, Staatsangehörigkeit hervorgehen; Beispiel: Reisepass UND Geburtsurkunde
+
+    -   Bei ausländischen MitbürgerInnen und Mitbürgern ist grundsätzlich das **Reisedokument notwendig**.
+
+2.  **SteuerNummer & SteuerAnmeldung**
+
+[**FinanzAmt** Siriusstraße 11 Telefonnummer - Privatpersonen: 050 233 233](https://www.finanz.at/finanzamt/klagenfurt/)\
+
+Ab **Oktober 2025** gibt es keine **Online-Erstanmeldung** mehr!
+*Das bedeutet: Eine Erstanmeldung von zu Hause aus ist **nicht mehr möglich**.* Die **Erstanmeldung** für FinanzOnline können Sie nur mehr **persönlich** beim **Finanzamt** beantragen.
+Bitte **vereinbaren** Sie dafür unbedingt vorher einen **Termin**❗
+
+💡 Die **Abgabenkontonummer** (Steuernummer, STNR oder TIN) wird auf **Antrag** , oder bei Abgabe Ihrer **ersten Steuererklärung** vom Finanzamt vergeben.
+
+⚠️ **Der schnellste Weg zur Steuernummer:**
+
+Wenn Sie eine Steuererklärung in FinanzOnline zum ersten Mal starten, wird automatisch eine Steuernummer vergeben.
+👩🏻‍💻
+
+-   Demander le numéro d’identification fiscale autrichien (**Steuernummer**) À faire auprès du Finanzamt (bureau des impôts) après votre inscription.
+    Déclarer votre situation fiscale Remplissez le formulaire **«Anmeldung zur Einkommensteuer»** (déclaration d’inscription à l’impôt sur le revenu) dès votre première année d’imposition.
+
+-   Ouvrir un **compte bancaire autrichien** Nécessaire pour le paiement des impôts, des assurances sociales et pour recevoir votre salaire.
+
+-   Souscrire à une **assurance santé autrichienne** En tant que résident, vous devez vous affilier à la Gesundheitskasse (assurance maladie obligatoire).

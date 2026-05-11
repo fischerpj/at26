@@ -1,0 +1,56 @@
+---
+title: "JSON pretty"
+author: "granpiero"
+date: "2026-02-03"
+categories: [news]
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+> Bill of Materials as flexible JSON Structure or what all is to done and when.
+
+
+```{r TRIBL, echo=FALSE}
+data <- tibble::tribble(
+  ~chapter,
+  "Localisation",
+  "Exploration",
+  "Tax / Succession",
+  "RDD église",
+  "Logement",
+  "Relocalisation",
+  "Timeline cutoff",
+  "Frais",
+) 
+
+data |>
+  gt::gt()
+
+data.json <- data |> jsonlite::toJSON()
+
+data.json |> jsonlite::prettify()
+
+
+```
+
+```{=html}
+<pre id="output-div-raw"></pre>
+```
+
+```{=html}
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const data = {
+    name: "Pier",
+    project: "Demo",
+    items: [1, 2, 3],
+    nested: { ok: true }
+  };
+
+  const pretty = JSON.stringify(data, null, 3);
+  console.log(pretty);
+  document.getElementById("output-div-raw").textContent = pretty;
+});
+</script>
+```

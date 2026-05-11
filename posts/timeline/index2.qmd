@@ -1,0 +1,105 @@
+---
+title: "Timeline"
+author: "granpiero"
+date: "2026-02-03"
+description: "planning network"
+categories: [news]
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+> GANTT chart
+
+```{mermaid}
+gantt
+    title Parallel Tasks Example
+    dateFormat  YYYY
+    axisFormat  %Y
+
+    section Flow
+    FR_start    :fr_st, 2606, 1y
+    1_AT_search_address  :at_search, after fr_st, 9y
+    AT_tour  :at_tour, after fr_st, 9y
+    MISC_checks  :at_checks, after fr_st, 9y
+    2_AT_new_address  :at_addr, after at_search, 11y
+    ENSAP_move   :ensap, after at_search, 11y
+    SIRP_move    :sirp_move, after at_search, 11y
+    MISC_move   :misc_move, after at_search, 11y
+    3_AT_install   :at_install, after at_addr, 8y
+    AT_Meldungen   :misc_move, after at_addr, 4y
+    DGFIP        :dgfip, after sirp_move, 4y
+    APR-Pâques   :apr, 2615, 4y
+    JUL      :jul, 2627, 4y
+
+
+```
+
+1. **1_AT_search_address** includes all preminary actions: at_bank (that can be preempted) and at_Steuerberater.
+2. de **2_AT_new_address** découle de l'obtention d'un domicile et active ENSAP_move,  SIRP_move, DGFIP
+- SIRP_move take input of **new address** / **new_bank** for **new_salary** with a delay of 2 months
+- ENSAP_move takes input of **new_address** for transfer of ENSAP Pension from Limoges to Nantes and confirms french RIB. 
+- DGFIP just needs to be notified of **new_address**. Tax return is performed on line as usual with two declarations around ut-off date.s
+3. **3_AT_install** includes AT_Meldezettel and physical Erstanmeldung Steuer.
+
+4. **MISC_move** includes all FR contract changes (mainly of address eg for banks and providers and taxe foncière)
+
+5. cf **AT_Anmeldungen** for 3 details
+
+6. **MISC_checks** includes telecom for SIM.fr Data in AT and SIM.tph to AT. 
+
+```{r BOM, echo=FALSE}
+bom <- tibble::tribble(
+   ~node, ~category, ~params,
+   "contrat_location","2_AT_new_address",NA ,
+   "ENSAP_move","2_AT_new_address",NA ,
+   "SIRP_move","2_AT_new_address",NA ,
+   "AT_Meldezettel","3_AT_install",NA ,
+   "AT_Erstanmeldung_Tax","3_AT_install",NA ,
+   "MISC_move","2_AT_new_address",NA ,
+   "DGFIP","3_AT_install",NA ,
+   "AT_install","3_AT_install",NA ,
+   "porte blindée","1_AT_search_address",NA ,
+   "tax_future_review","1_AT_search_address",NA ,
+   "steuerberater","1_AT_search_address",NA ,
+   "steueramt","1_AT_search_address",NA ,
+   "chrétiens","1_AT_search_address",NA ,
+   "immo search","1_AT_search_address",NA ,
+   "bank digital","1_AT_search_address",NA ,
+   "explo tour","1_AT_search_address",NA ,
+   "test_telecom","1_AT_search_address",NA ,
+   "CGR_contact","1_AT_search_address",NA ,
+   "CSG_avie_remb","any",NA ,
+
+) 
+
+bom.arrange <- bom |> 
+  dplyr::select(dplyr::matches("^node|^category")) |>
+  dplyr::relocate(category) |>
+  dplyr::arrange(category) 
+
+bom.json <- bom.arrange |>
+  jsonlite::toJSON()
+
+## bom.json |>  jsonlite::prettify()
+
+bom.arrange |>
+  gt::gt()
+```
+
+```{r TRIBL, echo=FALSE, eval=FALSE}
+tibble::tribble(
+  ~action,~objectif,
+  "Tax_Future","simulations delta",
+  "SIRP","formulaire & délai",
+  "ENSAP","formulaire & délai",
+  "DGFIP","formulaire & délai",
+  "Anmeldung","formulaire & délai 3 jours !",
+  "AT_Bank","",
+  "AT_Domicile","",
+  "Cutoff","optimum f(cutoff)",
+  "Budget","lister dépenses",
+) |>
+  gt::gt()
+```
+
