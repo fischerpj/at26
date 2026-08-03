@@ -3,7 +3,7 @@ title: "Steuer"
 author: "granpiero"
 date: "2026-02-03"
 description: "Steur Sachen"
-categories: [news]
+categories: [finance]
 editor: 
   markdown: 
     wrap: sentence

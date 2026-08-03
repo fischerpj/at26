@@ -1,9 +1,9 @@
 ---
-title: "buy strategy"
+title: "Immo Strategies"
 author: "granpiero"
-date: "2026-02-03"
-description: "buy flat"
-categories: [news]
+date: "2026-05-14"
+description: "based on Time_horizon and Selection_Rules"
+categories: [search]
 execute: 
   echo: false
 editor: 
@@ -11,7 +11,19 @@ editor:
     wrap: sentence
 ---
 
-> Buy Strategy
+> Strategies approaches revolve around **Miet_T2**, **Kauf_T2**, **Kauf_Haus**.
+
+```{r}
+source(here::here("src/_common.R"))
+
+spot_() |>
+  dplyr::select(dplyr::matches("^name|^type")) |>
+  gt::gt() |>
+  gt::tab_header('Good Spots')
+
+```
+
+Criteria: fGEE << 1, Betriebskosten < 3.5/m2 nego 5-8%
 
 The most effective strategy is to **target older but well‑located buildings in Villach/Klagenfurt (built 1975–2005), avoid lakeside premiums, and buy slightly outside the city cores (5–15 km), where prices drop sharply while rental demand stays high.**\
 Below is a decision‑ready plan grounded in current market data.
@@ -73,7 +85,6 @@ Step 1 — Scan the right platforms - **RE/MAX** (best curated inventory)\
 - **Willhaben** (largest supply, many private sellers)\
 - **sREAL** (Austrian banks + Sparkassen listings)\
 - **Immowelt / ImmoScout24** (broad coverage)
-
 -   **immobilien.net**
 
 Step 2 — **Filter aggressively - Price: €150k–€260k**\
@@ -305,23 +316,42 @@ This is the exact routine to track liquidity, spot opportunities, and detect pri
 
 Each line begins with a Guided Link so you can expand any step.
 
----
 
-📅 WEEKLY CHECKLIST
+### Rent T2.
 
-- Track new listings — Note all new 2‑room units with lift + parking in your €200–250k range.  
-- Record days on market — Anything > 60 days becomes a negotiation target.  
-- Monitor price reductions — Look for 2nd reductions (seller fatigue).  
-- Check Betriebskosten — Flag any unit with < €3.50/m² as high‑quality.  
-- Review HOA reserve funds — Avoid buildings with low Rücklage or planned renovations.  
-- Check Infineon hiring cycles — Rental demand spikes → liquidity improves.  
-- Track supply in your target buildings — If a rare unit appears, act fast.  
-- Monitor interest rate news — Lower rates → more buyers → less negotiation power.  
-- Check lake‑adjacent micro‑markets — Landskron, Viktring outskirts, St. Ruprecht.  
-- Review rental market speed — Confirms liquidity and exit flexibility.  
-- Track developer inventory — Oversupply = negotiation leverage.  
-- Watch for probate/estate sales — Often 10–15% below market.  
-- Check for upcoming renovations — Façade/lift = €15–25k risk.  
-- Maintain your shortlist — Update your top 10–12 buildings weekly.
+For a 2‑room flat (≈ 45–60 m²) in Villach, realistic low‑cost prices are:
 
----
+€500–€650 → cheapest range, usually older buildings, unfurnished
+
+€650–€800 → standard long‑term rentals, unfurnished or partly furnished
+
+€900+ → furnished, modern, serviced apartments (the expensive ones you saw)
+
+If you want economic, you should avoid serviced apartments and look at private landlords or standard long‑term leases.
+
+1. **Willhaben.at**
+2. **Immowelt.at**
+3. **ImmoScout24.at**
+4. Local Facebook Groups
+5. ImmoKurier
+
+1. KO Comfort Apartments Villach **ab 30 €/night** 
+Location: Trattengasse 22 Phone: 04242 4074015
+
+Why it fits: Offers furnished units, including 2‑room flats, suitable for long stays.
+
+2. KO Apart of Me – Villach **ab 80-100 €/night** 
+Location: Straußstraße 3–5 Phone: 0664 5103574
+
+Why it fits: Modern apartments, long‑stay friendly, often available in 2‑room layouts.
+
+3.KO CT‑GOLD Apartments – Villach Malina 
+Location: Purtschellerstraße 57 Phone: 0720 211908
+
+Why it fits: High‑quality furnished apartments; accepts long‑term rentals.
+
+4.NiceFlats – Möblierte Wohnungen & Apartments **ab 80 €/night** 
+Location: Schloßbergweg 1 Phone: 04242 4074014
+
+Why it fits: Specializes in furnished long‑term rentals; 2‑room units available.
+

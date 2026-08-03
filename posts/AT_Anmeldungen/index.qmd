@@ -3,10 +3,7 @@ title: "AT_Anmeldungen"
 author: "granpiero"
 date: "2026-02-03"
 description: "ENSAP procedures"
-categories: [news]
-editor: 
-  markdown: 
-    wrap: sentence
+categories: [procedure]
 ---
 
 > Anmeldungen in AT: MeldeZettel, SteuerNummer, SteuerAnmeldung

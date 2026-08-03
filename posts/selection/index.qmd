@@ -1,0 +1,20 @@
+---
+title: "Immo Selection"
+author: "granpiero"
+date: "2026-02-03"
+description: "Retained Assets"
+categories: [search]
+editor: 
+  markdown: 
+    wrap: sentence
+execute:
+  echo: false
+---
+
+> Pre_selection hints
+
+1. Warmbad T2 124K/63m2 Mag. Dr. Hermann Altmayer MBA +43 664 425 10 59
+2. J.Hiller kerstin.rauter@rbmk.at T +43 4212 5566 47626 M +664 88 45 31 08 Raiffeisen Immobilien Mittelkärnten GmbH
+- RFS / johannHiller 439K
+- KLA Kristina Ageljic, M  +43 664 925 70 18
+- EPO Munich: +49 (0)89 2399-0

@@ -2,9 +2,8 @@ project:
   type: website
   output-dir: docs
   
-
 website:
-  title: "Austria 26"
+  title: "Austria"
   navbar:
     right:
       - about.qmd
@@ -14,10 +13,9 @@ website:
         href: https://twitter.com
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: lumen
     css: styles.css
+
 
 
 

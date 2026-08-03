@@ -1,9 +1,9 @@
 ---
-title: "Hebergement 6 mois strategy"
+title: "Hebergement à 6 mois"
 author: "granpiero"
 date: "2026-02-03"
-description: "planning network"
-categories: [news]
+description: "Time_horizon dependent strategies"
+categories: [search]
 execute: 
   echo: false
 editor: 
@@ -11,7 +11,9 @@ editor:
     wrap: sentence
 ---
 
-> Recherche Hébergement Startgey 6 mois
+> Recherche Hébergement Strategy 6 mois
+
+See also HousingAnywhere, Spotahome, Uniplaces Flatio
 
 The most effective strategy is to combine professional furnished-apartment providers for reliability with Austrian rental platforms for longer stays, and use local sublet channels only as a secondary layer.
 This gives you the best coverage in Villach and Klagenfurt.

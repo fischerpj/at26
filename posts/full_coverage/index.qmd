@@ -1,0 +1,134 @@
+---
+title: "Full Coverage"
+author: "granpiero"
+date: "2026-05-14"
+description: "How to scan whole market"
+categories: [search]
+editor: 
+  markdown: 
+    wrap: sentence
+execute:
+  echo: false
+---
+
+> HowTo
+
+The whole‑market method to track all new listings in Villach/Klagenfurt is to combine three layers:  
+1) **Portal‑level** search agents (covering 90% of the market)  
+2) **Agency‑level** feeds (covering the remaining 10%)  
+3) A weekly **manual sweep** (to catch anything the algorithms miss)
+
+```{r}
+source(here::here("src/_common.R"))
+db_() |>
+  dplyr::select(-dplyr::matches("^col")) |>
+  dplyr::filter(type %in% "portal90") |>
+  gt::gt() |>
+  gt::tab_header("How to cover the market")
+```
+
+```{r}
+db_() |>
+  dplyr::select(-dplyr::matches("^col")) |>
+  dplyr::filter(type %in% "agent") |>
+  gt::gt() |>
+  gt::tab_header("How to cover the market")
+```
+
+
+
+This gives you complete coverage of the market — not just Willhaben/ImmoScout, but also REMAX, Perkonig, Schick, NPK, etc.  
+Below is the full system, structured and actionable.
+
+---
+
+1) Set up portal‑level search agents (covers ~90% of the market)
+
+These are the only tools that reliably capture almost all new listings.  
+Each bullet begins with a Guided Link so you can expand any part.
+
+- Willhaben Suchagent — The single most important source; private sellers + agencies.  
+  Create 2 agents:  
+  - Miet_T2 in Mietwohnungen, bis 65m² , 2-3 Zimmer, Balkon, Fahrstuhl, Parkplatz, Klagenfurt, Villach, Klagenfurt Land, Villach Land
+  - Kauf_T2 in Eigentumswohnung, bis € 280.000, 50-65m² , 2-3 Zimmer, Balkon, Fahrstuhl, Parkplatz, Klagenfurt, Villach, Klagenfurt Land, Villach Land
+
+
+- ImmoScout24 Suchagent — Best for agency listings and new builds.  
+  Use filters:  
+  - Region: Villach + Klagenfurt  
+  - Price: €150–300k  
+  - Rooms: 2  
+  - Features: Lift, Parkplatz
+
+- Immowelt Suchagent — Captures agencies that don’t list on Willhaben.
+
+- Der Standard Immobilien Suchagent — Good for private sellers and older buildings.
+
+These four agents alone give you 90%+ coverage of all new listings.
+
+---
+
+2) Add agency‑level feeds (captures the missing 10%)
+
+Some agencies delay posting to portals or post only on their own site for 24–72 hours.  
+These are the agencies that matter in Villach/Klagenfurt:
+
+- REMAX Villach/Klagenfurt — Large inventory, often first to publish.  
+- Perkonig Klagenfurt — Strong in Klagenfurt mid‑range flats.  
+- Schick Immobilien Villach — Very active in Völkendorf/Lind.  
+- NPK Immobilien — Dominant in Villach.  
+- Belvimo Klagenfurt — Good for renovated 2000s buildings.  
+- Immobilien Consulting Villach — Often has early postings.
+
+You don’t need to check them daily — twice per week is enough.
+
+---
+
+3) Perform a weekly sweep (catches everything the agents miss)
+
+This is the “insurance layer” that ensures you never miss a listing.
+
+- Search Willhaben manually  
+  Sort by “Neueste zuerst” and scan the last 48 hours.
+
+- Search ImmoScout manually  
+  Sort by “Neu eingestellt”.
+
+- Check Facebook groups  
+  Private sellers often post here before portals:  
+  - “Immobilien Villach Privat”  
+  - “Immobilien Klagenfurt Privat”
+
+- Check developer pages  
+  For rare new builds in Villach/Klagenfurt.
+
+This sweep takes 10–12 minutes per week and guarantees full coverage.
+
+---
+
+4) Optional: Build a “priority watchlist” of buildings
+
+Since you already have a shortlist of the best buildings, you can track them directly:
+
+- Track supply in target buildings  
+  Search each building name weekly on Willhaben + ImmoScout.
+
+This is how you catch rare units in Lind, Völkendorf, Warmbad, Landskron, Viktring, etc.
+
+---
+
+5) The complete system (summary)
+
+| Step | Tool | Coverage | Frequency |
+|------|------|----------|-----------|
+| Portal search agents | Willhaben, ImmoScout, Immowelt, Der Standard | ~90% | Automatic |
+| Agency feeds | REMAX, Perkonig, Schick, NPK, Belvimo | +10% | 2×/week |
+| Weekly sweep | Manual checks + FB groups | 100% | Weekly |
+| Building watchlist | Your top 10–12 buildings | Rare gems | Weekly |
+
+This is the complete, whole‑market tracking system used by professional buyers’ agents.
+
+---
+
+Want me to automate this into a weekly checklist you can follow in 5 minutes?
+I can generate a 5‑minute weekly routine tailored to Villach/Klagenfurt.

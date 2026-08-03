@@ -1,0 +1,47 @@
+---
+title: "Weekly Routine"
+author: "granpiero"
+date: "2026-02-03"
+description: "checklists"
+categories: [search]
+execute: 
+  echo: false
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+> 1. Suchagent per Platforms by Miet&Kauf: start with miet_T2 then kauf_t2 complement with kauf_haus.
+
+todo: confirm rules implemented: *m2
+- OK IMMO.at 5M2, 5K2, 5KH
+
+```{r}
+source(here::here("src/_common.R"))
+
+cross_()
+
+```
+
+
+### 📅 WEEKLY CHECKLIST
+
+- Track **new listings** — Note all new 2‑room units with lift + parking in your €200–250k range.  
+  - Villach 2-Zimmer 45-65m2 150-300 K Kauf
+  - Suchagent Willhaben, ImmoScout24, Immowelt, Sandard Immobilien = 90% coverage
+  
+- Record days on market(**DOM**) — Anything > 60 days becomes a negotiation target.  ImmoMArktAnalyse REMAX immospiegel
+- Monitor price reductions — Look for 2nd reductions (seller fatigue).  
+- Check Betriebskosten — Flag any unit with < €3.50/m² as high‑quality.  
+- Review HOA reserve funds — Avoid buildings with low Rücklage or planned renovations.  
+- Check Infineon hiring cycles — Rental demand spikes → liquidity improves.  
+- Track supply in your target buildings — If a rare unit appears, act fast.  
+- Monitor interest rate news — Lower rates → more buyers → less negotiation power.  
+- Check lake‑adjacent micro‑markets — Landskron, Viktring outskirts, St. Ruprecht.  
+- Review rental market speed — Confirms liquidity and exit flexibility.  
+- Track developer inventory — Oversupply = negotiation leverage.  
+- Watch for probate/estate sales — Often 10–15% below market.  
+- Check for upcoming renovations — Façade/lift = €15–25k risk.  
+- Maintain your shortlist — Update your top 10–12 buildings weekly.
+
+---

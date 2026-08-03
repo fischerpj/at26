@@ -3,7 +3,7 @@ title: "ENSAP"
 author: "granpiero"
 date: "2026-02-03"
 description: "ENSAP procedures"
-categories: [news]
+categories: [procedure]
 editor: 
   markdown: 
     wrap: sentence

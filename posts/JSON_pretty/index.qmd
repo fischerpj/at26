@@ -2,7 +2,7 @@
 title: "JSON pretty"
 author: "granpiero"
 date: "2026-02-03"
-categories: [news]
+categories: [timing]
 editor: 
   markdown: 
     wrap: sentence

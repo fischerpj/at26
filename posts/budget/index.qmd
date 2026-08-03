@@ -3,7 +3,7 @@ title: "Budget"
 author: "granpiero"
 date: "2026-02-03"
 description: "ENSAP procedures"
-categories: [news]
+categories: [finance]
 editor: 
   markdown: 
     wrap: sentence

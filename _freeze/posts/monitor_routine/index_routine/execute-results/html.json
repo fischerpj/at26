@@ -1,0 +1,15 @@
+{
+  "hash": "4c62bb4a3440632bdfa7ed04faa2653b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Weekly Routine\"\nauthor: \"granpiero\"\ndate: \"2026-02-03\"\ndescription: \"checklists\"\ncategories: [search]\nexecute: \n  echo: false\neditor: \n  markdown: \n    wrap: sentence\n---\n\n\n\n> 1. Suchagent per Platforms by Miet&Kauf: start with miet_T2 then kauf_t2 complement with kauf_haus.\n\ntodo: confirm rules implemented: *m2\n- OK IMMO.at 5M2, 5K2, 5KH\n\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n             miet_t2 kauf_t2 kauf_haus\nwillhaben    \"1m2\"   \"1k2\"   \"1kh\"    \nimmoscout24  \"2m2\"   \"2k2\"   \"2kh\"    \nimmowelt     \"3m2\"   \"3k2\"   \"3kh\"    \nder_standard \"4m2\"   \"4k2\"   \"4kh\"    \nimmo.at      \"5m2\"   \"5k2\"   \"5kh\"    \n```\n\n\n:::\n:::\n\n\n\n\n### 📅 WEEKLY CHECKLIST\n\n- Track **new listings** — Note all new 2‑room units with lift + parking in your €200–250k range.  \n  - Villach 2-Zimmer 45-65m2 150-300 K Kauf\n  - Suchagent Willhaben, ImmoScout24, Immowelt, Sandard Immobilien = 90% coverage\n  \n- Record days on market — Anything > 60 days becomes a negotiation target.  \n- Monitor price reductions — Look for 2nd reductions (seller fatigue).  \n- Check Betriebskosten — Flag any unit with < €3.50/m² as high‑quality.  \n- Review HOA reserve funds — Avoid buildings with low Rücklage or planned renovations.  \n- Check Infineon hiring cycles — Rental demand spikes → liquidity improves.  \n- Track supply in your target buildings — If a rare unit appears, act fast.  \n- Monitor interest rate news — Lower rates → more buyers → less negotiation power.  \n- Check lake‑adjacent micro‑markets — Landskron, Viktring outskirts, St. Ruprecht.  \n- Review rental market speed — Confirms liquidity and exit flexibility.  \n- Track developer inventory — Oversupply = negotiation leverage.  \n- Watch for probate/estate sales — Often 10–15% below market.  \n- Check for upcoming renovations — Façade/lift = €15–25k risk.  \n- Maintain your shortlist — Update your top 10–12 buildings weekly.\n\n---\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

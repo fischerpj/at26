@@ -2,7 +2,7 @@
 title: "SIRP"
 author: "granpiero"
 date: "2026-02-03"
-categories: [news]
+categories: [procedure]
 description: "SIRP ^procedures"
 editor: 
   markdown: 

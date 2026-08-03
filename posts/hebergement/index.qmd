@@ -3,7 +3,7 @@ title: "Hebergement Court"
 author: "granpiero"
 date: "2026-02-03"
 description: "planning network"
-categories: [news]
+categories: [search]
 execute: 
   echo: false
 editor: 
@@ -12,6 +12,10 @@ editor:
 ---
 
 > Recherche Hébergement
+
+housingTarget
+Lystio
+
 
 https://www.airbnb.at/rooms/22235577?c
 heck_in=2026-05-04&check_out=2026-05-12&guests=1&adults=2&s=67&unique_share_id=ea4a0a01-ff59-493b-bab2-6f32a6f04bbc
