@@ -29,9 +29,11 @@ data = ({
       ] 
     },
     { 
-      name: "DevOps", 
+      name: "Infos", 
       children: [
-        {name: "Docker", value: 10, url: "https://www.docker.com"}, 
+        {name: "BEV", value: 10, url: "https://maps.bev.gv.at"}, 
+        {name: "basemap", value: 10, url: "https://basemap.at/"}, 
+        {name: "KAGIS", value: 10, url: "https://kagis.ktn.gv.at"}, 
       ] 
     }
   ]
