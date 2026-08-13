@@ -1,5 +1,5 @@
 ---
-title: "my RootMap"
+title: "rootMapAT"
 author: "gp"
 date: "2026-05-06"
 categories: [techno]
@@ -19,13 +19,29 @@ data = ({
     { 
       name: "Frontend", 
       children: [
-        {name: "AT", value: 100, url: "https://fischerpj.github.io/at26/"}, 
+        {name: "AT", value: 20, url: "https://fischerpj.github.io/at26/"}, 
       ] 
     },
     { 
-      name: "Immo", 
+      name: "Portals Immo", 
       children: [
-        {name: "Standard", value: 80, url: "https://immobilien.derstandard.at/suche/oesterreich/mieten-wohnung?ref=dt&utm_source=derstandard&utm_medium=widget&utm_campaign=navibutton"}, 
+        {name: "ImmoScout24", value: 10, url: " https://www.immobilienscout24.at/"}, 
+        {name: "Willhaben", value: 10, url: "https://www.willhaben.at/iad/immobilien/"}, 
+        {name: "Immowelt", value: 10, url: "https://www.immowelt.at/"}, 
+        {name: "Standard", value: 10, url: "https://immobilien.derstandard.at/suche/oesterreich/mieten-wohnung?ref=dt&utm_source=derstandard&utm_medium=widget&utm_campaign=navibutton"}, 
+        {name: "Kurier", value: 10, url: "https://immo.kurier.at/"}, 
+        {name: "IMarkt", value: 5, url: "https://www.immobilienmarkt-at.at/immobilien/kaernten/"}, 
+        {name: "iDirekt", value: 5, url: " https://www.immodirekt.at/immobilien/kaernten"},
+      ] 
+    },
+    { 
+      name: "Bank Portals", 
+      children: [
+        {name: "Raiff", value: 10, url: "https://www.raiffeisen-immobilien.at/de/ueber-uns/raiffeisen-immobilien-kaernten"}, 
+        {name: "SparK", value: 10, url: "https://www.sparkasse.at/kaernten/privatkunden/wohnen-finanzieren/wohnfinanzierung/immobilienservice/immobiliensuche"}, 
+        {name: "sReal", value: 10, url: "https://www.sreal.at/de/home"}, 
+        {name: "Volks", value: 10, url: "https://www.volksbank-kaernten.at/immobilien/immobilien_startseite.page"}, 
+        {name: "Bawag", value: 10, url: "https://oesterreich.immobilien/search"}, 
       ] 
     },
     { 
