@@ -18,8 +18,9 @@ execute:
 source(here::here("src/_common.R"))
 db_() |>
   dplyr::filter(type %in% "agentVitrine") |>
-  dplyr::select(-dplyr::matches("^col|type|value")) |>
-  dplyr::relocate(suchagent) |>
+  dplyr::select(-dplyr::matches("^col|type|Xvalue")) |>
+  dplyr::mutate(value = dplyr::row_number()) |>
+  dplyr::relocate(suchagent,value) |>
   gt::gt() |>
   gt::fmt_url(suchagent, label= gt::from_column("name")) |>
   gt::cols_hide(columns = name) |>
