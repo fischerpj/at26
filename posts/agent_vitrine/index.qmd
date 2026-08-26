@@ -1,0 +1,27 @@
+---
+title: "Agents de Vitrine"
+author: "granpiero"
+date: "2026-05-14"
+description: "vues en ville"
+categories: [search]
+editor: 
+  markdown: 
+    wrap: sentence
+execute:
+  echo: false
+---
+
+> Les agents vus en ville.
+
+
+```{r}
+source(here::here("src/_common.R"))
+db_() |>
+  dplyr::filter(type %in% "agentVitrine") |>
+  dplyr::select(-dplyr::matches("^col|type|value")) |>
+  dplyr::relocate(suchagent) |>
+  gt::gt() |>
+  gt::fmt_url(suchagent, label= gt::from_column("name")) |>
+  gt::cols_hide(columns = name) |>
+  gt::tab_header("Agent de Vitrine")
+```

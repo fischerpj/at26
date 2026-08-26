@@ -25,13 +25,13 @@ data = ({
     { 
       name: "Portals Immo", 
       children: [
-        {name: "ImmoScout24", value: 10, url: " https://www.immobilienscout24.at/"}, 
-        {name: "Willhaben", value: 10, url: "https://www.willhaben.at/iad/immobilien/"}, 
-        {name: "Immowelt", value: 10, url: "https://www.immowelt.at/"}, 
-        {name: "Standard", value: 10, url: "https://immobilien.derstandard.at/suche/oesterreich/mieten-wohnung?ref=dt&utm_source=derstandard&utm_medium=widget&utm_campaign=navibutton"}, 
-        {name: "Kurier", value: 10, url: "https://immo.kurier.at/"}, 
-        {name: "IMarkt", value: 5, url: "https://www.immobilienmarkt-at.at/immobilien/kaernten/"}, 
-        {name: "iDirekt", value: 5, url: " https://www.immodirekt.at/immobilien/kaernten"},
+        {name: "1.ImmoScout24", value: 10, url: "https://www.immobilienscout24.de/wohnen/haus-kaufen.html?msockid=3982856f93be6e9307959392928f6f0f"}, 
+        {name: "2.Willhaben", value: 10, url: "https://www.willhaben.at/iad/immobilien/"}, 
+        {name: "3.Immowelt", value: 10, url: "https://www.immowelt.at/"}, 
+        {name: "4.Standard", value: 10, url: "https://immobilien.derstandard.at/suche/oesterreich/mieten-wohnung?ref=dt&utm_source=derstandard&utm_medium=widget&utm_campaign=navibutton"}, 
+        {name: "5.Kurier", value: 10, url: "https://immo.kurier.at/"}, 
+        {name: "6.iDirekt", value: 5, url: " https://www.immodirekt.at/immobilien/kaernten"},
+        {name: "7.IMarkt", value: 5, url: "https://www.immobilienmarkt-at.at/immobilien/kaernten/"}, 
       ] 
     },
     { 
@@ -44,6 +44,12 @@ data = ({
         {name: "Bawag", value: 10, url: "https://oesterreich.immobilien/search"}, 
       ] 
     },
+  { 
+      name: "Real Agents", 
+      children: [
+        {name: "Era", value: 10, url: " https://era.at/de/"}, 
+      ] 
+    },    
     { 
       name: "Infos", 
       children: [
